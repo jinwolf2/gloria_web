@@ -302,7 +302,7 @@ export default function Home() {
             <motion.p className="text-base text-slate-600 font-light leading-relaxed" variants={fadeInUp}> A través de representaciones, sacamos a la luz lo oculto, permitiendo que el amor fluya de nuevo y cada miembro ocupe su lugar legítimo. </motion.p>
           </motion.div>
           <motion.div className="hidden md:block text-center p-10 md:p-12 bg-slate-50 rounded-lg shadow-sm" {...motionProps(scaleUp)}>
-            <blockquote className="text-2xl lg:text-3xl italic text-slate-600 font-light"> <p>"Sólo cuando estamos en sintonía con nuestro destino, tenemos la fuerza para cambiarlo."</p> </blockquote>
+            <blockquote className="text-2xl lg:text-3xl italic text-slate-600 font-light"> <p>&ldquo;Sólo cuando estamos en sintonía con nuestro destino, tenemos la fuerza para cambiarlo.&rdquo;</p> </blockquote>
             <p className="mt-4 text-slate-600">- Bert Hellinger</p>
           </motion.div>
         </div>
@@ -366,7 +366,7 @@ export default function Home() {
                                 className="w-20 h-20 md:w-24 md:h-24 rounded-full mx-auto mb-6 shadow-lg border-2 border-indigo-100"
                             />
                             <blockquote className="text-lg md:text-xl italic text-slate-700 mb-6 leading-relaxed">
-                                <p>"{testimonialsData[activeTestimonialIndex].text}"</p>
+                                <p>&ldquo;{testimonialsData[activeTestimonialIndex].text}&rdquo;</p>
                             </blockquote>
                             <p className="font-semibold text-slate-800">{testimonialsData[activeTestimonialIndex].author}</p>
                             <p className="text-sm text-slate-500">{testimonialsData[activeTestimonialIndex].role}</p>
